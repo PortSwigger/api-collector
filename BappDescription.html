@@ -1,0 +1,25 @@
+<p>APICollector is a Burp Suite extension for API security testing that imports API definitions from OpenAPI (YAML/JSON), Postman, Insomnia, and cURL, maps endpoints and parameters, executes requests, tracks vulnerabilities, and generates assessment reports.</p>
+
+<h2>Features</h2>
+<ul>
+  <li>Imports API collections from OpenAPI (YAML/JSON), Postman, Insomnia, and cURL to populate an endpoint inventory automatically.</li>
+  <li>Endpoint and parameter tabs provide a structured attack surface map with automatic URL-decoding for human-readable parameter documentation.</li>
+  <li>Built-in request executor allows rapid iteration against endpoints directly within the extension, with an option to send requests to Repeater.</li>
+  <li>Vulnerability tracking supports stateful finding management with Open, Remediated, Verified, and Re-Open statuses, plus side-by-side proof-of-concept and retest evidence.</li>
+  <li>Assessment analytics dashboard displays risk distribution across Critical, High, Medium, Low, and Info severities, along with a remediation progress bar and vulnerable endpoint counts.</li>
+  <li>File-based project management saves and loads entire workspaces as <code class=InlineCode>.apic</code> files for assessment isolation and continuity.</li>
+  <li>Report generation exports findings in Markdown, CSV, or JSON formats.</li>
+</ul>
+
+<h2>Usage</h2>
+<ol>
+  <li>Open the APICollector tab and use the import function to load an OpenAPI spec, Postman collection, Insomnia export, or cURL command.</li>
+  <li>Alternatively, right-click any request in Proxy or Repeater and select <code class=InlineCode>Send to APICollector</code> to add it to the endpoint inventory.</li>
+  <li>Review the Endpoints and Parameters tabs to map the full attack surface and data dictionary for the target API.</li>
+  <li>Select an endpoint and use the internal executor to send requests directly, or forward them to Repeater for further manual testing.</li>
+  <li>Document identified vulnerabilities in the Endpoints tab, assigning severity and status; findings populate the Vulnerabilities dashboard automatically.</li>
+  <li>Use the Revalidation Panel to re-test findings, update their status, and capture proof-of-fix snapshots alongside the original proof-of-concept.</li>
+  <li>Monitor overall assessment health, risk distribution, and remediation progress in the Dashboard tab.</li>
+  <li>Export the completed assessment as a Markdown, CSV, or JSON report using the report generation function.</li>
+  <li>Save the workspace via the project management function to produce an <code class=InlineCode>.apic</code> file, and reload it later to resume the assessment.</li>
+</ol>
