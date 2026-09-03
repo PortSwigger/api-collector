@@ -2,8 +2,8 @@ Uuid: fd59dfb7945e4a22ada1a5947387eb4d
 ExtensionType: 2
 Name: API Collector
 RepoName: api-collector
-ScreenVersion: 0.0.1
-SerialVersion: 1
+ScreenVersion: 0.0.5
+SerialVersion: 2
 MinPlatformVersion: 2
 ProOnly: True
 Author: Kamran Saifullah
