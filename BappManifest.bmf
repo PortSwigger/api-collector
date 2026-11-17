@@ -3,7 +3,7 @@ ExtensionType: 2
 Name: API Collector
 RepoName: api-collector
 ScreenVersion: 0.0.5
-SerialVersion: 2
+SerialVersion: 3
 MinPlatformVersion: 2
 ProOnly: True
 Author: Kamran Saifullah
